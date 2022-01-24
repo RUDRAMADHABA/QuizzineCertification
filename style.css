@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background: #fdf9ff;
+} 
+.logo{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 200%;
+  align-items: center;
+
+}
+.container {
+  position: absolute;
+  max-width: 800px;
+  height: 500px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+.myRight {
+  position: relative;
+  background-image: linear-gradient(45deg, #04c043, #025e02c5);
+  border-radius: 25px;
+  height: 100%;
+  color: rgb(192, 192, 192);
+  font-size: 12px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myLeft {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  height: 100%;
+  padding: 60px;
+  padding-left: 36px;
+}
+.myLeft header {
+  color: #04c043;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.row{
+height: 100%;
+} 
+.myCard {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+} 
+.myRight header {
+  color: #fff;
+  font-size: 44px;
+}
+.box {
+  position: relative;
+  margin: 20px;
+  margin-bottom: 100px;
+} 
+.myLeft .myInput {
+  width: 260px;
+  border-radius: 25px;
+  padding: 14px;
+  padding-left: 55px;
+  border: none;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.myLeft .myInput:focus {
+  outline: none;
+} 
+.myForm {
+  position: relative;
+  margin-top: 50px;
+} 
+.myLeft .butt {
+  background: linear-gradient(45deg, #04c043, #025e02c5);
+  color: #fff;
+  width: 255px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+} 
+.myLeft .butt:hover {
+  background: linear-gradient(45deg, #04c043, #025e02c5);
+}
+.myLeft .butt:focus {
+  outline: none;
+} 
+.myLeft .fas {
+  position: relative;
+  color: #04c043;
+  right: 90px;
+  top: 38px;
+} 
+.butt_out {
+  background: transparent;
+  color: #fff;
+  width: 120px;
+  border: 2px solid#fff;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+} 
+.butt_out:hover {
+  border: 2px solid#f8f0fc;
+} 
+.butt_out:focus {
+  outline: none;
+}
+@media(max-width: 584px){
+  .container{
+   max-width: 100%;
+ }
+ .box {
+  position: relative;
+  margin: 20px;
+  margin-bottom: 100px;
+  width: 100%;
+} 
+.myLeft {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.myInput::-webkit-scrollbar{
+  width: 5px;
+}
+
+  
+  
