@@ -130,22 +130,40 @@ height: 100%;
 .butt_out:focus {
   outline: none;
 }
-@media(max-width: 584px){
-  .container{
-   max-width: 100%;
- }
- .box {
-  position: relative;
-  margin: 20px;
-  margin-bottom: 100px;
-  width: 100%;
-} 
-.myLeft {
-  max-height: 300px;
-  overflow-y: scroll;
+@media (max-width: 414px) {
+  body {
+      display:flex;
+      align-items: center;
+      height: 100vh;
+  }
+
+  .logo img {
+      width: 100%;
+  }
+
+  .container {
+      max-width: 100%;
+      position: relative;
+      height: unset;
+      top: 0;
+      left: 0;
+      transform: none;
+  }
+
+  .myLeft {
+      max-height: unset;
+      padding: 30px;
+  }
 }
-.myInput::-webkit-scrollbar{
-  width: 5px;
+
+@media (max-width: 768px) {
+  .logo img {
+      width: 100%;
+  }
+}
+
+.form-group {
+  position: relative;
 }
 
   
