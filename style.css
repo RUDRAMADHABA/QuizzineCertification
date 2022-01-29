@@ -159,12 +159,15 @@ height: 100%;
 @media (max-width: 768px) {
   .logo img {
       width: 100%;
+      padding-top: 30px;
+      padding-left: 20px;
   }
 }
 
 .form-group {
   position: relative;
 }
+
 
   
   
