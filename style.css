@@ -162,12 +162,26 @@ height: 100%;
       padding-top: 30px;
       padding-left: 20px;
   }
+
 }
 
 .form-group {
   position: relative;
 }
 
+.inputWrap{
+    display: inline-block;
+    position: relative; 
+}
+
+.inputWrap::before {
+    content: "\f0e0";
+    font-family: 'Font Awesome 5 Free';
+    color: green;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
 
   
   
